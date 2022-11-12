@@ -35,5 +35,8 @@
         "endOfLine": "auto"
       }
     ]
+  },
+  "globals": {
+    "React": "writable"
   }
 }

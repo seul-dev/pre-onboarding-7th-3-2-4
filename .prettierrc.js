@@ -1,8 +1,8 @@
-module.exports ={
-  "trailingComma": "none",
-  "tabWidth": 2,
-  "semi": true,
-  "singleQuote": false,
-  "arrowParens": "always",
-  "printWidth": 80
-}
+module.exports = {
+  trailingComma: "none",
+  tabWidth: 2,
+  semi: true,
+  singleQuote: false,
+  arrowParens: "always",
+  printWidth: 80
+};
