@@ -5,15 +5,16 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 
 interface Props {
+  title: string;
   children: React.ReactNode;
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ title, children }: Props) => {
   return (
     <div className={`w-full flex h-screen`}>
       <Sidebar />
       <div className={`w-full`}>
-        <Header title="투자계좌" />
+        <Header title={title} />
         <Content>{children}</Content>
         <Footer />
       </div>
