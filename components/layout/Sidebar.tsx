@@ -13,12 +13,13 @@ const Sidebar = () => {
       </div>
       <ul className={`flex flex-col`}>
         {navlinks.map((nav) => (
-          <li
+          <Link
+            href={nav.link}
             key={nav.title}
             className={`h-10 p-3 pl-10 mb-2 flex items-center cursor-pointer hover:text-white hover:bg-blue`}
           >
-            <Link href={nav.link}>{nav.title}</Link>
-          </li>
+            {nav.title}
+          </Link>
         ))}
       </ul>
     </aside>

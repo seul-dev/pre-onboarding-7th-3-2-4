@@ -1,8 +1,8 @@
 import React from "react";
-import Content from "../../components/layout/Content";
+import Layout from "../../components/layout/Layout";
 
 const Accounts = () => {
-  return <Content>index</Content>;
+  return <Layout title="투자 계좌">index</Layout>;
 };
 
 export default Accounts;

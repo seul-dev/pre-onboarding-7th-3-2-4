@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import Layout from "../components/layout/Layout";
-import styles from "../styles/Home.module.css";
+import LoginForm from "../components/auth/LoginForm";
+import LoginLayout from "../components/auth/LoginLayout";
 
 export default function Home() {
   return (
-    <Layout>
-      <h1>hi</h1>
-    </Layout>
+    <LoginLayout>
+      <LoginForm />
+    </LoginLayout>
   );
 }
